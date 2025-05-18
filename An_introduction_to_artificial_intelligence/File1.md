@@ -96,10 +96,59 @@ learn traffic patterns
 
 
 ## Thinking Rationally : laws of thought
-Aristotle: what are correct arguments/thought
-processes?
-— Logic
-Problems
-— Not all intelligent behavior is mediated by logical
+* Aristotle: what are correct arguments/thought processes?
+    * Logic
+* Problems
+    * Not all intelligent behavior is mediated by logical  
 deliberation (reflexes)
-— What is the purpose of thinking?
+    * What is the purpose of thinking?
+    * Ans - Thinking should be purposeful
+
+## Acting Humanly
+* Loebner Prize
+    * Every year in Boston
+    * Expertise-dependent tests: limited conversation
+* What if people call a human a machine?
+    * Shakespeare expert
+    * Make human-like errors
+* Problems
+    * Not reproducible, constructive or mathematically analyzable
+
+## Acting rationally
+* Rational behavior: doing the right thing
+* Need not always be deliberative
+    * Reflexive
+* Aristotle (Nicomachean ethics)
+    * Every art and every inquiry, and similarly every action  
+and every pursuit is thought to aim at some good.
+
+## Acting => Thinking?
+* Weak Al Hypothesis vs. Strong Al hypothesis
+    * Weak Hyp: machines could act as if they are
+intelligent
+    * Strong Hyp: machines that act intelligent have to
+think intelligently too
+
+> Systems that act rationally
+What is rationality?
+
+## Rational Agents
+* An agent should strive to **do the right thing**, based on what  
+it can perceive and the actions it can perform. The right  
+action is the one that will cause the agent to be most  
+successful
+* **Performance measure**: An objective criterion for success of  
+an agent's behavior
+* E.g., performance measure of a vacuum-cleaner agent  
+could be amount of dirt cleaned up, amount of time taken,  
+amount of electricity consumed, amount of noise  
+generated, etc.
+
+## Ideal Rational Agent
+"For each possible **percept sequence**, does  
+whatever action is expected to maximize its  
+performance measure on the basis of evidence  
+perceived **so far** and built-in knowledge. "
+
+* Rationality vs omniscience?
+* Acting in order to obtain valuable information
