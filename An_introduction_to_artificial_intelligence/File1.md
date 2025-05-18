@@ -152,3 +152,69 @@ perceived **so far** and built-in knowledge. "
 
 * Rationality vs omniscience?
 * Acting in order to obtain valuable information
+
+## Examples : Formal Cognitive Tasks
+* Games
+    * Chess
+    * Checkers
+    * Othello
+* Mathematics
+    * Logic
+    * Geometry
+    * Calculus
+    * Proving properties of Programs
+* Engineering
+    * Design
+    * Fault Finding
+    * Manufacturing planning
+* Medical
+    * Diagnosis
+    * Medical Image Analysis
+* Financial
+    * Stock market predictions
+
+## Examples - Perceptual Tasks
+* Perception
+    * Vision
+    * Speech
+* Natural Language
+    * Understanding
+    * Generation
+    * Translation
+* Robot Control
+
+## What is artificial intelligence (algorithmic view)
+* A large number of problems are **NP hard**
+* AI develops a set of tools, heuristics,...  
+    * to solve such problems in practice
+    * for naturally occurring instances
+* Search
+* Game Playing
+* Planning
+* ...
+
+## Recurrent Themes
+* Weak vs. Knowledge-based Methods
+    * Weak — general search methods (e.g., A* search)
+        * primarily for problem solving
+        * not motivated by achieving human-level performance
+* Strong Al -- knowledge intensive (e.g., expert systems)
+    * more knowledge less computation
+    * achieve better performance in specific tasks
+* How to combine weak & strong methods seamlessly?
+
+* Logic vs. Probabilistic vs. Neural
+    * In 1950s, logic dominates
+        * attempts to extend logic
+    * 1988 — Bayesian networks
+        * efficient computational framework
+    * 2013 — deep neural networks
+        * powerful representation across modalities
+
+## Topics of this course
+* Phase 1: Search, Constraint Satisfaction, Logic,
+Games
+* Phase 2: Uncertainty (decision theory,
+probabilistic knowledge representation),
+Learning (reinforcement)
+* Phase 3: Deep Neural Networks
