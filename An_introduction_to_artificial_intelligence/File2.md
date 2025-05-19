@@ -61,3 +61,89 @@ other UVV-AI faculty)
 
 ## Implementation - states vs nodes
 ![alt text](image-35.png)
+
+## Uniformed Search: Basic Search Strategies Part-3
+
+### Search strategies
+* A search strategy is defined by picking the **order Of node expansion**
+* Strategies are evaluated along the following dimensions:
+    * **completeness:** does it always find a solution if one exists?
+    * **time complexity:** number of nodes generated
+    * **space complexity:** maximum number Of nodes in memory
+    * **optimality:** does it always find a least-cost solution?
+    * **systematicity:** does it visit each state at most once?
+* Time and space complexity are measured in terms of
+    * b: maximum branching factor Of the search tree
+    * d: depth Of the solution
+    * m: maximum depth of the state space (may be infinity)
+
+### Uninformed search strategies
+* **Uninformed** search strategies use only the information
+available in the problem definition
+* Breadth-first search
+* Depth-first search
+* Depth-limited search
+* Iterative deepening search
+
+### Repeated States
+* Failure to detect repeated states can turn a linear problem into an exponential one
+
+![alt text](image-36.png)
+
+### Depth First Search
+* Maintain stack of nodes to visit
+* Evaluation
+    * Complete?
+        * No. what if subtree never ends?
+    * Time Complexity?
+        * O(b^m)
+    * Space complexity?
+        * O(bm)
+![alt text](image-37.png)
+
+![alt text](image-40.png)
+
+### Breadth First Search - shortest first
+* Maintain queue of nodes to visit
+* Evaluation
+    * Complete?
+        * Yes (b is finite). We will assume in our AI courses
+    * Time Complexity?
+        * O(b^d)
+    * Space Complexity?
+        * O(b^d)
+    * Optimal?
+        * Yes, ifstepcost = 1
+
+![alt text](image-38.png)
+
+### Uniform Cost Search - Cheapest first
+* Maintain queue of nodes to visit
+* Evaluation
+    * Complete?
+        * Yes(b is finite)
+    * Time Complexity?
+        * O(b^(C*/epsilon))
+    * Space Complexity?
+        * O(b^(C*/epsilon))
+    * Optimal?
+        * Yes
+
+![alt text](image-39.png)
+
+![alt text](image-41.png)
+
+BFS and Uniform Cost search are kind of same?
+
+## Uniformed Search: Iterative Deepening DFS Part-4
+
+* Which is better DFS or BFS?
+* Which is more important? Time or space?
+    
+### Memory Limitation
+* Suppose
+    * 2 GHz CPU
+    * 1 GB main memory
+    * 100 instru
+
+
