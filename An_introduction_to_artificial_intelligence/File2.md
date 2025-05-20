@@ -183,4 +183,13 @@ Iterative Deepening Search performs DFS up to a certain depth limit, and repeats
 ## Uniformed Search: Bidirectional Search Part-5
 ![alt text](image-46.png)
 
+![alt text](image-47.png)
+
+
+Why bidirectional will not work?
+* complete ?
+* Time? - O(b^(d/2))
+* Space? - O(b^(d/2))
+* Optimal? - Yes if uniform cost search used in both directions.
+
 
