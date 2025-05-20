@@ -144,6 +144,43 @@ BFS and Uniform Cost search are kind of same?
 * Suppose
     * 2 GHz CPU
     * 1 GB main memory
-    * 100 instru
+    * 100 instruction/expansion
+    * 5 bytes/node
+
+200,000 expansions/sec
+Memory filled in 100 sec ... < 2 minutes
+
+![alt text](image-42.png)
+
+### Idea 1 : Beam Search
+* Maintain a constant sized frontier
+* Whenever the frontier becomes large
+    * Prune the worst nodes
+
+Optimal - no
+complete - no
+
+### Idea 2 : Iterative deepening search
+Iterative Deepening Search (IDS) is a search algorithm that combines the space efficiency of Depth-First Search (DFS) with the completeness and optimality of Breadth-First Search (BFS).
+
+🧠 Core Idea:
+Iterative Deepening Search performs DFS up to a certain depth limit, and repeats it by increasing the depth limit step-by-step, until the goal is found.
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+* Complete? - Yes
+* Time? - O(b^d)
+* Space? - O(bd)
+* Optimal?
+    * Yes, if step cost = 1
+    * can be modified to explore uniform cost tree(iterative lengthening)
+* Systematic?
+
+![alt text](image-45.png)
+
+## Uniformed Search: Bidirectional Search Part-5
+![alt text](image-46.png)
 
 
