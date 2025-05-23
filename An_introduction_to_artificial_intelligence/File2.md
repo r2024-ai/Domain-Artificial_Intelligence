@@ -192,4 +192,6 @@ Why bidirectional will not work?
 * Space? - O(b^(d/2))
 * Optimal? - Yes if uniform cost search used in both directions.
 
+![alt text](image-48.png)
+
 
