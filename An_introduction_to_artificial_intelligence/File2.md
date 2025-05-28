@@ -194,4 +194,18 @@ Why bidirectional will not work?
 
 ![alt text](image-48.png)
 
+![alt text](image-49.png)
 
+
+![alt text](image-50.png)
+
+
+![alt text](image-51.png)
+
+![alt text](image-52.png)
+
+## Problem
+* All these methods are slow (blind)
+* Solution
+    * Add guidance ("heuristic estimate")
+    * "informed search"
